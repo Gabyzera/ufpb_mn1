@@ -17,11 +17,10 @@ def metodo_minimos_lineares(x, y):
     
     return a, b
 
-# Dados de exemplo
 x = np.array([1.3, 3.4, 5.1, 6.8, 8]) 
 y = np.array([2, 5.2, 3.8, 6.1, 5.8])
 
 a, b = metodo_minimos_lineares(x, y)
 
-print("A inclinacao a e':", a)
-print("O intercepto b e':", b)
+print("Coeficiente a e':", a)
+print("Coeficiente b e':", b)

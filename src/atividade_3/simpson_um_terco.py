@@ -7,7 +7,7 @@ def simpson_um_terco(funcao, a, b, n):
     x = np.linspace(a, b, n+1)
     y = funcao(x)
      
-    resultado = (h/3)*(y[0] + 4*np.sum(y[1:-1:2]) + 2*np.sum(y[2:-2:2])  + y[-1])
+    resultado = (h/3)*(y[0] + 4*np.sum(y[1:-1:2]) + 2*np.sum(y[2:-2:2]) + y[-1])
     return resultado
 
 def funcao(x):

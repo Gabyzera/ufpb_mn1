@@ -9,7 +9,6 @@ def metodo_minimos_quadrados(x, y):
     somatorio_x2 = np.sum(x**2)
     somatorio_x3 = np.sum(x**3)
     somatorio_x4 = np.sum(x**4)
-    somatorio_x2 = np.sum(x**2)
     somatorio_xy = np.sum(x*y)
     somatorio_x2y = np.sum(x**2 * y)
     
